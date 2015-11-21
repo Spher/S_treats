@@ -1,0 +1,647 @@
+
+html, body, #container {
+	height: 100%;
+
+}
+
+body > #container {
+	height: auto;
+	min-height: 100%;
+}
+h2 {
+	margin-top: 15%;
+    text-align: center;
+	color:#8f602e;
+
+}
+.myContainer{
+	display:table;
+	width: 100%;
+}
+.container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+	width: 1518px !important;
+}
+.leftGutter, .rightGutter{
+	width:10%;
+	height: 100%;
+	display: table-cell;
+	background-image: url("images/stripe-background.png");
+	opacity: 0.3;
+}
+.content1{
+	margin-top:-56px;
+	background:rgba(251, 228, 188,0.6);
+	padding-top:-2%;
+}
+
+#orderDetails{
+	width: 426px;
+}
+
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+@media (max-width: 600px) {
+  .logo{
+    margin-left: 0px;
+	height: auto;
+    width: 37%;
+    margin-top: 10px;
+	position: absolute;
+  }
+  .navbar-wrapper{
+  height:10%;
+  width:100%
+  }
+}
+@media (min-width:601px) {
+.logo {
+    height: auto;
+    width: 37%;
+    margin-top: 10px;
+    margin-left: 60px;
+    	max-width:350px;
+
+}
+}
+.navbar-menu{
+	width:100%;
+	margin-top:6.7%;
+  padding:2em;
+	background-image: url(images/navbar-background.png);
+	background-position: 0 4px;
+	background-repeat: repeat-x;
+}
+
+.navbar {
+margin-bottom: 0;
+}
+.navbar-menu ul{
+	margin:0px;
+	padding-left: 30%;
+
+}
+.navbar-menu li{
+	display:inline;
+	padding:22px;
+
+}
+.navbar-menu li a{
+	   text-decoration: none;
+	   color:#8f602e;
+	   margin-left: 3%;
+	   font-size:18px;
+	}
+.navbar-menu ul li a:hover {
+   color: #ec5f88;
+}
+.navbar-menu ul li a.active{
+	 color: #ec5f88;
+}
+.active {
+	 color: #ec5f88 !important;
+}
+.navbar-wrapper {
+    top: 0;
+    z-index: 10;
+    width: 100%;
+	background: url(images/header-background.jpg);
+	margin: 0;
+	background-repeat: repeat-x ;
+}
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.nav > li > a {
+    font-size: 18px;
+    color: #8f602e;
+}
+
+.nav .active .home,
+.nav .active .menu,
+.nav .active .gallery,
+.nav .active .order,
+.nav .active .about,
+.nav .active .testimonials,
+.nav .active .contact {
+    color: #ec5f88;
+	background-color: transparent;
+}
+
+.nav > li > .home:hover,
+.nav > li > .menu:hover,
+.nav > li > .gallery:hover,
+.nav > li > .order:hover,
+.nav > li > .about:hover,
+.nav > li > .testimonials:hover,
+.nav > li > .contact:hover {
+    color: #ec5f88;
+    background-color: transparent;
+}
+
+.glyphicon-align-justify {
+   color:#8f602e;
+}
+/* Index Page Styles */
+/*Carousel
+
+	.carousel-inner > .item >  img,
+	.carousel-inner > .item > a > img {
+		width:100%;
+		margin:auto;
+ }
+ .carousel .item {
+	background-color: #fbe3be;
+    }
+
+ .carouselContentWrapper{
+		width: 100%;
+		margin-top: -5%;
+	} */
+
+
+.carouselContentWrapper {
+	margin-top: 0px;
+}
+.logo {
+	position: absolute;
+
+}
+.carousel-inner{
+	margin-top: -5%;
+}
+.carousel-caption	{
+	background-color:#d2bbc1;
+	margin:-20px;
+	left:0;
+	bottom:0;
+	width:100%;
+	padding:429px;
+	opacity:0.60;
+	position:absolute;
+	text-shadow:none!important;
+	margin-left: -304px;
+}
+.carousel-indicators li{
+	 color:#ec5f88;
+	 border: 1px solid #ec5f88;
+ }
+.caption{
+	text-align:center;
+	padding-bottom: 2%;
+	color:#733617!important;
+}
+
+
+ /* Footer */
+
+ .footer {
+    text-align: center;
+    background-color: #fbe3be;
+    margin: 0;
+	width:100%;
+	padding:1em 0 1em 0;
+	left:15%;
+	}
+
+
+
+ .footer>.country-copyright {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+	padding-top: 10px;
+    padding-bottom: 30px;
+    color: #8f602e;
+
+}
+
+.footer>.country-copyright>.copyright>span {
+    margin: 0 4px;
+}
+.footer>.footer-content {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+	margin-top:0;
+    color: #8f602e;
+	padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.footer-social {
+	float:right;
+	margin-top: -3%;
+	height:30px;
+	margin-right:2%;
+}
+
+
+
+.footer-social li {
+	float:left;
+	list-style:none;
+	margin-left: 6px;
+	padding-right: 10px;
+	}
+
+.footer-social span {
+	float:left;
+	}
+
+
+.footer-order {
+	float:left;
+	margin-top: -30px;
+	height:30px;
+}
+
+
+.footer-order li {
+	float:right;
+	list-style:none;
+	margin-left: 6px;
+	padding-right: 10px;
+	}
+.footer-order li  a{
+	color: #8f602e;
+	text-decoration:none;
+	}
+.footer-order li a:hover{
+	color: #ec5f88;
+	}
+.stitched {
+	padding:10px;
+	border-top: 2px dashed #8f602e;
+	border-bottom: 2px dashed #8f602e;
+	border-width: 3px;
+	color: #8f602e;
+	width:100%;
+	}
+
+/* About page style */
+
+
+.containerabout-cake-designer p{
+	font-size: 14px;
+	padding: 0 10px;
+	text-align: justify;
+	color: #8f602e;
+}
+
+.text-center {
+	margin-top:10px;
+	color: #8f602e;
+	padding-top: 7%;
+}
+.containerabout-cake-designer {
+	padding:25px 10% 25px 10%;
+}
+.containerabout-cake-designer .aboutContent {
+	display:table-cell;
+	width:70%;
+	padding:0 20px 0 0;
+	vertical-align:top;
+}
+.containerabout-cake-designer .mahaImgDiv {
+	display:table-cell;
+	width:25%;
+	vertical-align:top;
+}
+.mahaImgDiv .mahaImg{
+	padding:8px;
+	max-width:300px;
+}
+
+
+ /* Menu page style */
+
+.container-menu {
+	width:100%;
+	color:#8f602e;
+	font-size:16px;
+}
+.anchorlink {
+	text-decoration:none;
+	color: #8f602e;
+	font-weight:bold;
+	font-size: 16px;
+}
+.anchorlink a:hover{
+	text-decoration:none;
+	color:#ec5f88;
+}
+
+.leftdiv{
+   float:left;
+    border-right: 2px dashed #8f602e;
+    height:auto;
+    width:50%;
+    display:inline-block;
+	padding: 25px 112px
+}
+.rightdiv{
+	width:48%;
+    display:inline-block;
+    height:auto;
+	padding: 25px 112px
+}
+.heading{
+   text-align:center;
+    clear:both;
+}
+.lowerheight{
+    height:auto;
+}
+dt{
+    font-weight:bold;
+}
+dd{
+	padding-bottom: 15px;
+}
+
+.pricingstyle{
+	clear:both;
+	padding: 25px 0;
+}
+.cakeFlavorsStyle{
+	padding-bottom: 25px;
+}
+
+
+
+/* Testimonials */
+.container-testimonials{
+	width:100%;
+	padding: 0 16% 0 16%;
+
+}
+.pull-right {
+	float:right !important;
+	padding:20px;
+	margin-bottom:10px;
+	margin-left: 20px;
+}
+.testimonial-text{
+	padding: 10px 0 10px 0;
+    color: #8f602e;
+	text-align:justify;
+	display:block;
+}
+.testimonial-writer{
+	padding: 10px 0 10px 0;
+    color: #8f602e;
+	text-align:center;
+	display:block;
+}
+.testimonials-yelp{
+	text-align: right;
+	padding-bottom: 25px;
+}
+
+/* Gallery */
+.container-gallery {
+	background:rgba(251, 228, 188,0.6);
+}
+.product-categories {
+	display: inline-block;
+	/* width: 25%; */
+	float: left;
+	height: 100%;
+	width: 20%;
+	padding-left: 70px;
+	font-size: 18px;
+
+}
+.product-categories span{
+	display: block;
+	text-align: left;
+	line-height: 70px;
+}
+.product-categories span a{
+	text-decoration: none;
+	color:#8f602e;
+}
+.product-categories span a:hover {
+	color: #ec5f88;
+}
+.container-adult-theme-cakes1 {
+   width: 75%;
+   display: inline-block;
+   margin: 0;
+   padding-left: 10px;
+ }
+.wrap {
+   overflow: hidden;
+   margin: 10px;
+   padding-bottom:40px;
+ }
+.box {
+   float: left;
+   position: relative;
+   width: 25%;
+   padding-bottom: 20%;
+    }
+.boxInner {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+.gallery2Wrapper{
+	margin-top: -5%;
+    padding-top: 8%
+}
+
+
+
+/* Contact form */
+
+.container-contact-form{
+	margin-top:-5%;
+}
+textarea{
+	text-indent:0px;
+}
+.contactFormValue{
+	width:270px;
+	color:#8f602e;
+}
+.contactFormLbl{
+	float:left;
+	width:160px;
+	color:#8f602e;
+}
+.formFldDiv{
+	clear:both;
+    padding-bottom:15px;
+}
+.stitched-box {
+	padding:39px;
+	margin: 5px;
+	border: 2px dashed #8f602e;
+	width:  523px;
+    margin-left: 20%;
+	margin-top:4%;
+	min-height: 340px;
+}
+.contact-us{
+	top: -421px;
+	color:#8f602e;
+    position: relative;
+    right: -63%;
+}
+
+.google-map {
+	margin-left: 7%;
+  margin-top: -14%;
+	padding-bottom: 35px;
+}
+.error {
+	color:#8f602e;
+}
+
+.para {
+	color: #8f602e;
+    text-align: center;
+    font-size: medium;
+    padding: 0px 158px
+}
+.btnSubmit{
+	color: #fce3bf;
+	font-size: 18px;
+	margin-top: 11%;
+}
+
+/* Order form */
+
+.orderFormDiv{
+	margin-top:-36px !important;
+}
+#container-order-form{
+	padding-bottom: 5%;
+	margin-top: 35px;
+
+}
+.stitchedbox {
+	border: 2px dashed #8f602e;
+	padding: 20px;
+	overflow: auto;
+ }
+
+
+h3 {
+	text-align:left;
+}
+button{
+
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	font-family: Arial;
+	color: #fce3bf;
+	background: #8f602e;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border:#8f602e;
+}
+
+button:hover {
+  background: #fce3bf;
+	color:#8f602e;
+	text-decoration: none;
+}
+
+.notes {
+	margin-left: 18%;
+    width: 1000px;
+    color: #8f602e;
+}
+.orderForm{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.order-form-head{
+	padding: 27px 0;
+	margin-left: 10%;
+}
+
+#toggleForm,#servingsSection{
+	display:none;
+}
+#rightOrderFormSec{
+	display: inline-block;
+	width: 45%;
+	margin: 1%;
+	float: left;
+	color: #8f602e;
+	margin-left: 6%;
+}
+#leftOrderFormSec{
+	display: inline-block;
+	width: 45%;
+	margin: 1%;
+	float: left;
+	color: #8f602e;
+}
+.control-label1{
+	float:left;
+	width:160px;
+	color:#8f602e;
+}
+.form-control1{
+	width:270px;
+	color:#8f602e;
+}
+
+.adultThemeCakes {
+	img {
+		width: 200px;
+		height: 200px;
+	}
+}
+   /* css media queries */
+
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+      }
+      .content1{
+      	display:table;
+      }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+      .box {
+        width: 25%;
+        padding-bottom: 25%;
+      }
+      .content1{
+      	display:table;
+      }
+    }
+	/*****/
